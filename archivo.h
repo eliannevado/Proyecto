@@ -169,22 +169,7 @@ public:      //a patir de aquí todas las declaraciones serán de acceso públic
            cout<<"Archivo Justificado al Centro..."<<endl;
        }
  
-      void split(string palabra, string delimitador){
-      //    string salida[]=palabra.split(delimitador);
-        //  cout<<salida[0]<<endl;
-        char frase[]="Me van a dividir jojo jojo ji";
-        char *ptr;
-        cout << "LA FRASE ANTES: " << frase << endl;
-        ptr = strtok(frase," ");//argumentos: frase, caracter delimitador
-        while(ptr != NULL)
-   {
-     cout << ptr << endl;
-     ptr = strtok(NULL, " ");
-   }
- cout << "LA FRASE DESPUES: " << frase << endl;
- 
-  	  cin.get();
-       }   
+     
       
 };
 #endif
